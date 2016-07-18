@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Material-io.cosmicmind.material.fonts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Material-io.cosmicmind.material.icons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Material.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Outside Recs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Outside RecsTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Outside RecsUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2310D4A4649FBF7291E415244ACE8045</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8DD257E9227F30EC540D6064FE59145C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>958EC39DD79BF94E1C5BECA416A02062</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B089559E351F0F16411C9503E770FC3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE9B0536CD7D58980FF5CD1F2E927CF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F25B654C028937834D84DED23F81161C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
