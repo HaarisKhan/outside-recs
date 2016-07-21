@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		027BD19826EE8900C46D5655 /* Pods_Outside_RecsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED8E058CE8CEC55156AB462 /* Pods_Outside_RecsTests.framework */; };
 		0B13B04D1D3D9E25003681F8 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B13B04C1D3D9E25003681F8 /* Spotify.framework */; };
+		0B40C3B71D3F5CFB0087A839 /* OutsideRecsiPhone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0B40C3B61D3F5CFB0087A839 /* OutsideRecsiPhone.mp4 */; };
 		0B4A6FC81D3D6F6100DD75E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A6FC71D3D6F6100DD75E2 /* AppDelegate.swift */; };
 		0B4A6FCA1D3D6F6100DD75E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A6FC91D3D6F6100DD75E2 /* ViewController.swift */; };
 		0B4A6FCD1D3D6F6100DD75E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A6FCB1D3D6F6100DD75E2 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		0B13B04C1D3D9E25003681F8 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
 		0B13B04E1D3D9F1A003681F8 /* Outside Recs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Outside Recs-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B40C3B61D3F5CFB0087A839 /* OutsideRecsiPhone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = OutsideRecsiPhone.mp4; path = ../OutsideRecsiPhone.mp4; sourceTree = "<group>"; };
 		0B4A6FC41D3D6F6100DD75E2 /* Outside Recs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Outside Recs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4A6FC71D3D6F6100DD75E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B4A6FC91D3D6F6100DD75E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		0B4A6FC61D3D6F6100DD75E2 /* Outside Recs */ = {
 			isa = PBXGroup;
 			children = (
+				0B40C3B61D3F5CFB0087A839 /* OutsideRecsiPhone.mp4 */,
 				0B4A6FC71D3D6F6100DD75E2 /* AppDelegate.swift */,
 				0B4A6FC91D3D6F6100DD75E2 /* ViewController.swift */,
 				0B4A6FCB1D3D6F6100DD75E2 /* Main.storyboard */,
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B4A6FD21D3D6F6100DD75E2 /* LaunchScreen.storyboard in Resources */,
+				0B40C3B71D3F5CFB0087A839 /* OutsideRecsiPhone.mp4 in Resources */,
 				0B4A6FCF1D3D6F6100DD75E2 /* Assets.xcassets in Resources */,
 				0B4A6FCD1D3D6F6100DD75E2 /* Main.storyboard in Resources */,
 			);
