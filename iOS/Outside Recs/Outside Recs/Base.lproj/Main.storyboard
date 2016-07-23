@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login Page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Outside_Recs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginPage" customModule="Outside_Recs" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,14 +16,59 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Outside_Lands_2015_04125_JORGPHOTO.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LNY-5J-dO6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LNY-5J-dO6" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="ES6-gZ-uLW"/>
+                            <constraint firstItem="LNY-5J-dO6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="afg-tV-gxk"/>
+                            <constraint firstAttribute="trailing" secondItem="LNY-5J-dO6" secondAttribute="trailing" id="nJK-ZX-6sH"/>
+                            <constraint firstItem="LNY-5J-dO6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zJF-nE-Bd6"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="backgroundImage" destination="LNY-5J-dO6" id="jNe-iv-lCx"/>
                         <outlet property="backgroundVideo" destination="8bC-Xf-vdC" id="mzW-8q-BNf"/>
+                        <segue destination="CjP-9o-9v5" kind="showDetail" identifier="showUserRecommendations" id="s52-Bh-qCV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="335" y="399"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="frC-U8-1et">
+            <objects>
+                <tableViewController id="CjP-9o-9v5" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ag2-mF-9Hi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eU8-wQ-4Wh">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eU8-wQ-4Wh" id="HA6-6E-5Ft">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="CjP-9o-9v5" id="L2e-PI-Juu"/>
+                            <outlet property="delegate" destination="CjP-9o-9v5" id="3Sx-sF-naQ"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZIK-La-Osd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1080" y="399"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Outside_Lands_2015_04125_JORGPHOTO.jpg" width="2048" height="1367"/>
+    </resources>
 </document>
