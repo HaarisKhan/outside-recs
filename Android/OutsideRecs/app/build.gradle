@@ -33,5 +33,7 @@ dependencies {
     compile 'com.spotify.sdk:spotify-auth-1.0.0-beta13@aar'
     compile 'com.spotify.sdk:spotify-player-1.0.0-beta13@aar'
     compile 'com.github.kaaes:spotify-web-api-android:0.4.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
 }
 
