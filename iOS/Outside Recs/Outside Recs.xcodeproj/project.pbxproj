@@ -9,9 +9,63 @@
 /* Begin PBXBuildFile section */
 		027BD19826EE8900C46D5655 /* Pods_Outside_RecsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED8E058CE8CEC55156AB462 /* Pods_Outside_RecsTests.framework */; };
 		0B13B04D1D3D9E25003681F8 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B13B04C1D3D9E25003681F8 /* Spotify.framework */; };
+		0B1840481D42EADC0061D8BC /* IMG_0023.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B1840471D42EADC0061D8BC /* IMG_0023.jpg */; };
+		0B18404A1D42EE6B0061D8BC /* Outside_Lands_2015_04125_JORGPHOTO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B1840491D42EE6B0061D8BC /* Outside_Lands_2015_04125_JORGPHOTO.jpg */; };
+		0B3A6E371D41A1AC004EF683 /* Spotify_Icon_RGB_Black.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DEE1D41A1AC004EF683 /* Spotify_Icon_RGB_Black.eps */; };
+		0B3A6E381D41A1AC004EF683 /* Spotify_Icon_RGB_Green.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DEF1D41A1AC004EF683 /* Spotify_Icon_RGB_Green.eps */; };
+		0B3A6E391D41A1AC004EF683 /* Spotify_Icon_RGB_White.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DF01D41A1AC004EF683 /* Spotify_Icon_RGB_White.eps */; };
+		0B3A6E3A1D41A1AC004EF683 /* Spotify_Icon_RGB_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DF21D41A1AC004EF683 /* Spotify_Icon_RGB_Black.png */; };
+		0B3A6E3B1D41A1AC004EF683 /* Spotify_Icon_RGB_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DF31D41A1AC004EF683 /* Spotify_Icon_RGB_Green.png */; };
+		0B3A6E3C1D41A1AC004EF683 /* Spotify_Icon_RGB_White.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DF41D41A1AC004EF683 /* Spotify_Icon_RGB_White.png */; };
+		0B3A6E3D1D41A1AC004EF683 /* Spotify_Icon_RGB_Black.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DF61D41A1AC004EF683 /* Spotify_Icon_RGB_Black.pdf */; };
+		0B3A6E3E1D41A1AC004EF683 /* Spotify_Icon_RGB_Green.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DF71D41A1AC004EF683 /* Spotify_Icon_RGB_Green.pdf */; };
+		0B3A6E3F1D41A1AC004EF683 /* Spotify_Icon_RGB_White.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DF81D41A1AC004EF683 /* Spotify_Icon_RGB_White.pdf */; };
+		0B3A6E401D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DFB1D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.eps */; };
+		0B3A6E411D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DFC1D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.eps */; };
+		0B3A6E421D41A1AC004EF683 /* Spotify_Icon_CMYK_White.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DFD1D41A1AC004EF683 /* Spotify_Icon_CMYK_White.eps */; };
+		0B3A6E431D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6DFF1D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.png */; };
+		0B3A6E441D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E001D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.png */; };
+		0B3A6E451D41A1AC004EF683 /* Spotify_Icon_CMYK_White.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E011D41A1AC004EF683 /* Spotify_Icon_CMYK_White.png */; };
+		0B3A6E461D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E031D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.pdf */; };
+		0B3A6E471D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E041D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.pdf */; };
+		0B3A6E481D41A1AC004EF683 /* Spotify_Icon_CMYK_White.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E051D41A1AC004EF683 /* Spotify_Icon_CMYK_White.pdf */; };
+		0B3A6E491D41A1AC004EF683 /* Spotify_Icon_Black_Coated.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E081D41A1AC004EF683 /* Spotify_Icon_Black_Coated.eps */; };
+		0B3A6E4A1D41A1AC004EF683 /* Spotify_Icon_Black_Uncoated.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E091D41A1AC004EF683 /* Spotify_Icon_Black_Uncoated.eps */; };
+		0B3A6E4B1D41A1AC004EF683 /* Spotify_Icon_Green_Coated.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E0A1D41A1AC004EF683 /* Spotify_Icon_Green_Coated.eps */; };
+		0B3A6E4C1D41A1AC004EF683 /* Spotify_Icon_Green_Uncoated.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E0B1D41A1AC004EF683 /* Spotify_Icon_Green_Uncoated.eps */; };
+		0B3A6E4D1D41A1AC004EF683 /* Spotify_Icon_Black_Coated.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E0D1D41A1AC004EF683 /* Spotify_Icon_Black_Coated.pdf */; };
+		0B3A6E4E1D41A1AC004EF683 /* Spotify_Icon_Black_Uncoated.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E0E1D41A1AC004EF683 /* Spotify_Icon_Black_Uncoated.pdf */; };
+		0B3A6E4F1D41A1AC004EF683 /* Spotify_Icon_Green_Coated.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E0F1D41A1AC004EF683 /* Spotify_Icon_Green_Coated.pdf */; };
+		0B3A6E501D41A1AC004EF683 /* Spotify_Icon_Green_Uncoated.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E101D41A1AC004EF683 /* Spotify_Icon_Green_Uncoated.pdf */; };
+		0B3A6E511D41A1AC004EF683 /* Spotify_Logo_RGB_Black.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E141D41A1AC004EF683 /* Spotify_Logo_RGB_Black.eps */; };
+		0B3A6E521D41A1AC004EF683 /* Spotify_Logo_RGB_Green.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E151D41A1AC004EF683 /* Spotify_Logo_RGB_Green.eps */; };
+		0B3A6E531D41A1AC004EF683 /* Spotify_Logo_RGB_White.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E161D41A1AC004EF683 /* Spotify_Logo_RGB_White.eps */; };
+		0B3A6E541D41A1AC004EF683 /* Spotify_Logo_RGB_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E181D41A1AC004EF683 /* Spotify_Logo_RGB_Black.png */; };
+		0B3A6E551D41A1AC004EF683 /* Spotify_Logo_RGB_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E191D41A1AC004EF683 /* Spotify_Logo_RGB_Green.png */; };
+		0B3A6E561D41A1AC004EF683 /* Spotify_Logo_RGB_White.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E1A1D41A1AC004EF683 /* Spotify_Logo_RGB_White.png */; };
+		0B3A6E571D41A1AC004EF683 /* Spotify_Logo_RGB_Black.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E1C1D41A1AC004EF683 /* Spotify_Logo_RGB_Black.pdf */; };
+		0B3A6E581D41A1AC004EF683 /* Spotify_Logo_RGB_Green.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E1D1D41A1AC004EF683 /* Spotify_Logo_RGB_Green.pdf */; };
+		0B3A6E591D41A1AC004EF683 /* Spotify_Logo_RGB_White.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E1E1D41A1AC004EF683 /* Spotify_Logo_RGB_White.pdf */; };
+		0B3A6E5A1D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E211D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.eps */; };
+		0B3A6E5B1D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E221D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.eps */; };
+		0B3A6E5C1D41A1AC004EF683 /* Spotify_Logo_CMYK_White.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E231D41A1AC004EF683 /* Spotify_Logo_CMYK_White.eps */; };
+		0B3A6E5D1D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E251D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.png */; };
+		0B3A6E5E1D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E261D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.png */; };
+		0B3A6E5F1D41A1AC004EF683 /* Spotify_Logo_CMYK_White.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E271D41A1AC004EF683 /* Spotify_Logo_CMYK_White.png */; };
+		0B3A6E601D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E291D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.pdf */; };
+		0B3A6E611D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E2A1D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.pdf */; };
+		0B3A6E621D41A1AC004EF683 /* Spotify_Logo_CMYK_White.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E2B1D41A1AC004EF683 /* Spotify_Logo_CMYK_White.pdf */; };
+		0B3A6E631D41A1AC004EF683 /* Spotify_Logo_Black_Coated.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E2E1D41A1AC004EF683 /* Spotify_Logo_Black_Coated.eps */; };
+		0B3A6E641D41A1AC004EF683 /* Spotify_Logo_Black_Uncoated.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E2F1D41A1AC004EF683 /* Spotify_Logo_Black_Uncoated.eps */; };
+		0B3A6E651D41A1AC004EF683 /* Spotify_Logo_Green_Coated.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E301D41A1AC004EF683 /* Spotify_Logo_Green_Coated.eps */; };
+		0B3A6E661D41A1AC004EF683 /* Spotify_Logo_Green_Uncoated.eps in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E311D41A1AC004EF683 /* Spotify_Logo_Green_Uncoated.eps */; };
+		0B3A6E671D41A1AC004EF683 /* Spotify_Logo_Black_Coated.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E331D41A1AC004EF683 /* Spotify_Logo_Black_Coated.pdf */; };
+		0B3A6E681D41A1AC004EF683 /* Spotify_Logo_Black_Uncoated.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E341D41A1AC004EF683 /* Spotify_Logo_Black_Uncoated.pdf */; };
+		0B3A6E691D41A1AC004EF683 /* Spotify_Logo_Green_Coated.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E351D41A1AC004EF683 /* Spotify_Logo_Green_Coated.pdf */; };
+		0B3A6E6A1D41A1AC004EF683 /* Spotify_Logo_Green_Uncoated.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E361D41A1AC004EF683 /* Spotify_Logo_Green_Uncoated.pdf */; };
 		0B40C3B71D3F5CFB0087A839 /* OutsideRecsiPhone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0B40C3B61D3F5CFB0087A839 /* OutsideRecsiPhone.mp4 */; };
 		0B4A6FC81D3D6F6100DD75E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A6FC71D3D6F6100DD75E2 /* AppDelegate.swift */; };
-		0B4A6FCA1D3D6F6100DD75E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A6FC91D3D6F6100DD75E2 /* ViewController.swift */; };
+		0B4A6FCA1D3D6F6100DD75E2 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A6FC91D3D6F6100DD75E2 /* LoginPage.swift */; };
 		0B4A6FCD1D3D6F6100DD75E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A6FCB1D3D6F6100DD75E2 /* Main.storyboard */; };
 		0B4A6FCF1D3D6F6100DD75E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A6FCE1D3D6F6100DD75E2 /* Assets.xcassets */; };
 		0B4A6FD21D3D6F6100DD75E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A6FD01D3D6F6100DD75E2 /* LaunchScreen.storyboard */; };
@@ -19,6 +73,8 @@
 		0B4A6FE81D3D6F6200DD75E2 /* Outside_RecsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A6FE71D3D6F6200DD75E2 /* Outside_RecsUITests.swift */; };
 		0B4A6FFA1D3D715000DD75E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4A6FF91D3D715000DD75E2 /* AVFoundation.framework */; };
 		0B4A6FFC1D3D715D00DD75E2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4A6FFB1D3D715D00DD75E2 /* SystemConfiguration.framework */; };
+		0BD1B8951D441F5D00A8D472 /* UserRecommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B8941D441F5D00A8D472 /* UserRecommendations.swift */; };
+		0BD1B8971D44290B00A8D472 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B8961D44290B00A8D472 /* NavigationController.swift */; };
 		1D28526ED9AD199145C32465 /* Pods_Outside_Recs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20F2C0A1FB9C5DF28F66FA6 /* Pods_Outside_Recs.framework */; };
 		FC54CE46004B9D4E5A278E81 /* Pods_Outside_RecsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653719A333BEF43B40AC59B1 /* Pods_Outside_RecsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -43,10 +99,64 @@
 /* Begin PBXFileReference section */
 		0B13B04C1D3D9E25003681F8 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
 		0B13B04E1D3D9F1A003681F8 /* Outside Recs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Outside Recs-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B1840471D42EADC0061D8BC /* IMG_0023.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0023.jpg; sourceTree = "<group>"; };
+		0B1840491D42EE6B0061D8BC /* Outside_Lands_2015_04125_JORGPHOTO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Outside_Lands_2015_04125_JORGPHOTO.jpg; sourceTree = "<group>"; };
+		0B3A6DEE1D41A1AC004EF683 /* Spotify_Icon_RGB_Black.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Icon_RGB_Black.eps; sourceTree = "<group>"; };
+		0B3A6DEF1D41A1AC004EF683 /* Spotify_Icon_RGB_Green.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Icon_RGB_Green.eps; sourceTree = "<group>"; };
+		0B3A6DF01D41A1AC004EF683 /* Spotify_Icon_RGB_White.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Icon_RGB_White.eps; sourceTree = "<group>"; };
+		0B3A6DF21D41A1AC004EF683 /* Spotify_Icon_RGB_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Icon_RGB_Black.png; sourceTree = "<group>"; };
+		0B3A6DF31D41A1AC004EF683 /* Spotify_Icon_RGB_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Icon_RGB_Green.png; sourceTree = "<group>"; };
+		0B3A6DF41D41A1AC004EF683 /* Spotify_Icon_RGB_White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Icon_RGB_White.png; sourceTree = "<group>"; };
+		0B3A6DF61D41A1AC004EF683 /* Spotify_Icon_RGB_Black.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Icon_RGB_Black.pdf; sourceTree = "<group>"; };
+		0B3A6DF71D41A1AC004EF683 /* Spotify_Icon_RGB_Green.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Icon_RGB_Green.pdf; sourceTree = "<group>"; };
+		0B3A6DF81D41A1AC004EF683 /* Spotify_Icon_RGB_White.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Icon_RGB_White.pdf; sourceTree = "<group>"; };
+		0B3A6DFB1D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Icon_CMYK_Black.eps; sourceTree = "<group>"; };
+		0B3A6DFC1D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Icon_CMYK_Green.eps; sourceTree = "<group>"; };
+		0B3A6DFD1D41A1AC004EF683 /* Spotify_Icon_CMYK_White.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Icon_CMYK_White.eps; sourceTree = "<group>"; };
+		0B3A6DFF1D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Icon_CMYK_Black.png; sourceTree = "<group>"; };
+		0B3A6E001D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Icon_CMYK_Green.png; sourceTree = "<group>"; };
+		0B3A6E011D41A1AC004EF683 /* Spotify_Icon_CMYK_White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Icon_CMYK_White.png; sourceTree = "<group>"; };
+		0B3A6E031D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Icon_CMYK_Black.pdf; sourceTree = "<group>"; };
+		0B3A6E041D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Icon_CMYK_Green.pdf; sourceTree = "<group>"; };
+		0B3A6E051D41A1AC004EF683 /* Spotify_Icon_CMYK_White.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Icon_CMYK_White.pdf; sourceTree = "<group>"; };
+		0B3A6E081D41A1AC004EF683 /* Spotify_Icon_Black_Coated.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Icon_Black_Coated.eps; sourceTree = "<group>"; };
+		0B3A6E091D41A1AC004EF683 /* Spotify_Icon_Black_Uncoated.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Icon_Black_Uncoated.eps; sourceTree = "<group>"; };
+		0B3A6E0A1D41A1AC004EF683 /* Spotify_Icon_Green_Coated.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Icon_Green_Coated.eps; sourceTree = "<group>"; };
+		0B3A6E0B1D41A1AC004EF683 /* Spotify_Icon_Green_Uncoated.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Icon_Green_Uncoated.eps; sourceTree = "<group>"; };
+		0B3A6E0D1D41A1AC004EF683 /* Spotify_Icon_Black_Coated.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Icon_Black_Coated.pdf; sourceTree = "<group>"; };
+		0B3A6E0E1D41A1AC004EF683 /* Spotify_Icon_Black_Uncoated.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Icon_Black_Uncoated.pdf; sourceTree = "<group>"; };
+		0B3A6E0F1D41A1AC004EF683 /* Spotify_Icon_Green_Coated.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Icon_Green_Coated.pdf; sourceTree = "<group>"; };
+		0B3A6E101D41A1AC004EF683 /* Spotify_Icon_Green_Uncoated.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Icon_Green_Uncoated.pdf; sourceTree = "<group>"; };
+		0B3A6E141D41A1AC004EF683 /* Spotify_Logo_RGB_Black.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Logo_RGB_Black.eps; sourceTree = "<group>"; };
+		0B3A6E151D41A1AC004EF683 /* Spotify_Logo_RGB_Green.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Logo_RGB_Green.eps; sourceTree = "<group>"; };
+		0B3A6E161D41A1AC004EF683 /* Spotify_Logo_RGB_White.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Logo_RGB_White.eps; sourceTree = "<group>"; };
+		0B3A6E181D41A1AC004EF683 /* Spotify_Logo_RGB_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Logo_RGB_Black.png; sourceTree = "<group>"; };
+		0B3A6E191D41A1AC004EF683 /* Spotify_Logo_RGB_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Logo_RGB_Green.png; sourceTree = "<group>"; };
+		0B3A6E1A1D41A1AC004EF683 /* Spotify_Logo_RGB_White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Logo_RGB_White.png; sourceTree = "<group>"; };
+		0B3A6E1C1D41A1AC004EF683 /* Spotify_Logo_RGB_Black.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Logo_RGB_Black.pdf; sourceTree = "<group>"; };
+		0B3A6E1D1D41A1AC004EF683 /* Spotify_Logo_RGB_Green.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Logo_RGB_Green.pdf; sourceTree = "<group>"; };
+		0B3A6E1E1D41A1AC004EF683 /* Spotify_Logo_RGB_White.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Logo_RGB_White.pdf; sourceTree = "<group>"; };
+		0B3A6E211D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Logo_CMYK_Black.eps; sourceTree = "<group>"; };
+		0B3A6E221D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Logo_CMYK_Green.eps; sourceTree = "<group>"; };
+		0B3A6E231D41A1AC004EF683 /* Spotify_Logo_CMYK_White.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Logo_CMYK_White.eps; sourceTree = "<group>"; };
+		0B3A6E251D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Logo_CMYK_Black.png; sourceTree = "<group>"; };
+		0B3A6E261D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Logo_CMYK_Green.png; sourceTree = "<group>"; };
+		0B3A6E271D41A1AC004EF683 /* Spotify_Logo_CMYK_White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Logo_CMYK_White.png; sourceTree = "<group>"; };
+		0B3A6E291D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Logo_CMYK_Black.pdf; sourceTree = "<group>"; };
+		0B3A6E2A1D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Logo_CMYK_Green.pdf; sourceTree = "<group>"; };
+		0B3A6E2B1D41A1AC004EF683 /* Spotify_Logo_CMYK_White.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Logo_CMYK_White.pdf; sourceTree = "<group>"; };
+		0B3A6E2E1D41A1AC004EF683 /* Spotify_Logo_Black_Coated.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Logo_Black_Coated.eps; sourceTree = "<group>"; };
+		0B3A6E2F1D41A1AC004EF683 /* Spotify_Logo_Black_Uncoated.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Logo_Black_Uncoated.eps; sourceTree = "<group>"; };
+		0B3A6E301D41A1AC004EF683 /* Spotify_Logo_Green_Coated.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Logo_Green_Coated.eps; sourceTree = "<group>"; };
+		0B3A6E311D41A1AC004EF683 /* Spotify_Logo_Green_Uncoated.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify_Logo_Green_Uncoated.eps; sourceTree = "<group>"; };
+		0B3A6E331D41A1AC004EF683 /* Spotify_Logo_Black_Coated.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Logo_Black_Coated.pdf; sourceTree = "<group>"; };
+		0B3A6E341D41A1AC004EF683 /* Spotify_Logo_Black_Uncoated.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Logo_Black_Uncoated.pdf; sourceTree = "<group>"; };
+		0B3A6E351D41A1AC004EF683 /* Spotify_Logo_Green_Coated.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Logo_Green_Coated.pdf; sourceTree = "<group>"; };
+		0B3A6E361D41A1AC004EF683 /* Spotify_Logo_Green_Uncoated.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Spotify_Logo_Green_Uncoated.pdf; sourceTree = "<group>"; };
 		0B40C3B61D3F5CFB0087A839 /* OutsideRecsiPhone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = OutsideRecsiPhone.mp4; path = ../OutsideRecsiPhone.mp4; sourceTree = "<group>"; };
 		0B4A6FC41D3D6F6100DD75E2 /* Outside Recs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Outside Recs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4A6FC71D3D6F6100DD75E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B4A6FC91D3D6F6100DD75E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B4A6FC91D3D6F6100DD75E2 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		0B4A6FCC1D3D6F6100DD75E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B4A6FCE1D3D6F6100DD75E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B4A6FD11D3D6F6100DD75E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +172,8 @@
 		0B6B62AC1D3D98D100AAE506 /* Material.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Material.framework; path = "Pods/../build/Debug-iphoneos/Material.framework"; sourceTree = "<group>"; };
 		0B6B62AE1D3D9BB400AAE506 /* Pods_Outside_Recs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Outside_Recs.framework; path = "Pods/../build/Debug-iphoneos/Pods_Outside_Recs.framework"; sourceTree = "<group>"; };
 		0B6B62B01D3D9BC100AAE506 /* Material.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Material.framework; path = "Pods/../build/Debug-iphoneos/Material.framework"; sourceTree = "<group>"; };
+		0BD1B8941D441F5D00A8D472 /* UserRecommendations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRecommendations.swift; sourceTree = "<group>"; };
+		0BD1B8961D44290B00A8D472 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		2DD372A3844F16E5697E64E7 /* Pods-Outside RecsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Outside RecsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Outside RecsUITests/Pods-Outside RecsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		653719A333BEF43B40AC59B1 /* Pods_Outside_RecsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Outside_RecsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED8E058CE8CEC55156AB462 /* Pods_Outside_RecsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Outside_RecsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +216,257 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B3A6DEA1D41A1AC004EF683 /* spotify-icons-logos */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6DEB1D41A1AC004EF683 /* icons */,
+				0B3A6E111D41A1AC004EF683 /* logos */,
+			);
+			path = "spotify-icons-logos";
+			sourceTree = "<group>";
+		};
+		0B3A6DEB1D41A1AC004EF683 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6DEC1D41A1AC004EF683 /* 01_RGB */,
+				0B3A6DF91D41A1AC004EF683 /* 02_CMYK */,
+				0B3A6E061D41A1AC004EF683 /* 03_PMS */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		0B3A6DEC1D41A1AC004EF683 /* 01_RGB */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6DED1D41A1AC004EF683 /* 01_EPS */,
+				0B3A6DF11D41A1AC004EF683 /* 02_PNG */,
+				0B3A6DF51D41A1AC004EF683 /* 03_PDF */,
+			);
+			path = 01_RGB;
+			sourceTree = "<group>";
+		};
+		0B3A6DED1D41A1AC004EF683 /* 01_EPS */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6DEE1D41A1AC004EF683 /* Spotify_Icon_RGB_Black.eps */,
+				0B3A6DEF1D41A1AC004EF683 /* Spotify_Icon_RGB_Green.eps */,
+				0B3A6DF01D41A1AC004EF683 /* Spotify_Icon_RGB_White.eps */,
+			);
+			path = 01_EPS;
+			sourceTree = "<group>";
+		};
+		0B3A6DF11D41A1AC004EF683 /* 02_PNG */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6DF21D41A1AC004EF683 /* Spotify_Icon_RGB_Black.png */,
+				0B3A6DF31D41A1AC004EF683 /* Spotify_Icon_RGB_Green.png */,
+				0B3A6DF41D41A1AC004EF683 /* Spotify_Icon_RGB_White.png */,
+			);
+			path = 02_PNG;
+			sourceTree = "<group>";
+		};
+		0B3A6DF51D41A1AC004EF683 /* 03_PDF */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6DF61D41A1AC004EF683 /* Spotify_Icon_RGB_Black.pdf */,
+				0B3A6DF71D41A1AC004EF683 /* Spotify_Icon_RGB_Green.pdf */,
+				0B3A6DF81D41A1AC004EF683 /* Spotify_Icon_RGB_White.pdf */,
+			);
+			path = 03_PDF;
+			sourceTree = "<group>";
+		};
+		0B3A6DF91D41A1AC004EF683 /* 02_CMYK */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6DFA1D41A1AC004EF683 /* 01_EPS */,
+				0B3A6DFE1D41A1AC004EF683 /* 02_PNG */,
+				0B3A6E021D41A1AC004EF683 /* 03_PDF */,
+			);
+			path = 02_CMYK;
+			sourceTree = "<group>";
+		};
+		0B3A6DFA1D41A1AC004EF683 /* 01_EPS */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6DFB1D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.eps */,
+				0B3A6DFC1D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.eps */,
+				0B3A6DFD1D41A1AC004EF683 /* Spotify_Icon_CMYK_White.eps */,
+			);
+			path = 01_EPS;
+			sourceTree = "<group>";
+		};
+		0B3A6DFE1D41A1AC004EF683 /* 02_PNG */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6DFF1D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.png */,
+				0B3A6E001D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.png */,
+				0B3A6E011D41A1AC004EF683 /* Spotify_Icon_CMYK_White.png */,
+			);
+			path = 02_PNG;
+			sourceTree = "<group>";
+		};
+		0B3A6E021D41A1AC004EF683 /* 03_PDF */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E031D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.pdf */,
+				0B3A6E041D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.pdf */,
+				0B3A6E051D41A1AC004EF683 /* Spotify_Icon_CMYK_White.pdf */,
+			);
+			path = 03_PDF;
+			sourceTree = "<group>";
+		};
+		0B3A6E061D41A1AC004EF683 /* 03_PMS */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E071D41A1AC004EF683 /* 01_EPS */,
+				0B3A6E0C1D41A1AC004EF683 /* 02_PDF */,
+			);
+			path = 03_PMS;
+			sourceTree = "<group>";
+		};
+		0B3A6E071D41A1AC004EF683 /* 01_EPS */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E081D41A1AC004EF683 /* Spotify_Icon_Black_Coated.eps */,
+				0B3A6E091D41A1AC004EF683 /* Spotify_Icon_Black_Uncoated.eps */,
+				0B3A6E0A1D41A1AC004EF683 /* Spotify_Icon_Green_Coated.eps */,
+				0B3A6E0B1D41A1AC004EF683 /* Spotify_Icon_Green_Uncoated.eps */,
+			);
+			path = 01_EPS;
+			sourceTree = "<group>";
+		};
+		0B3A6E0C1D41A1AC004EF683 /* 02_PDF */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E0D1D41A1AC004EF683 /* Spotify_Icon_Black_Coated.pdf */,
+				0B3A6E0E1D41A1AC004EF683 /* Spotify_Icon_Black_Uncoated.pdf */,
+				0B3A6E0F1D41A1AC004EF683 /* Spotify_Icon_Green_Coated.pdf */,
+				0B3A6E101D41A1AC004EF683 /* Spotify_Icon_Green_Uncoated.pdf */,
+			);
+			path = 02_PDF;
+			sourceTree = "<group>";
+		};
+		0B3A6E111D41A1AC004EF683 /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E121D41A1AC004EF683 /* 01_RGB */,
+				0B3A6E1F1D41A1AC004EF683 /* 02_CMYK */,
+				0B3A6E2C1D41A1AC004EF683 /* 03_PMS */,
+			);
+			path = logos;
+			sourceTree = "<group>";
+		};
+		0B3A6E121D41A1AC004EF683 /* 01_RGB */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E131D41A1AC004EF683 /* 01_EPS */,
+				0B3A6E171D41A1AC004EF683 /* 02_PNG */,
+				0B3A6E1B1D41A1AC004EF683 /* 03_PDF */,
+			);
+			path = 01_RGB;
+			sourceTree = "<group>";
+		};
+		0B3A6E131D41A1AC004EF683 /* 01_EPS */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E141D41A1AC004EF683 /* Spotify_Logo_RGB_Black.eps */,
+				0B3A6E151D41A1AC004EF683 /* Spotify_Logo_RGB_Green.eps */,
+				0B3A6E161D41A1AC004EF683 /* Spotify_Logo_RGB_White.eps */,
+			);
+			path = 01_EPS;
+			sourceTree = "<group>";
+		};
+		0B3A6E171D41A1AC004EF683 /* 02_PNG */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E181D41A1AC004EF683 /* Spotify_Logo_RGB_Black.png */,
+				0B3A6E191D41A1AC004EF683 /* Spotify_Logo_RGB_Green.png */,
+				0B3A6E1A1D41A1AC004EF683 /* Spotify_Logo_RGB_White.png */,
+			);
+			path = 02_PNG;
+			sourceTree = "<group>";
+		};
+		0B3A6E1B1D41A1AC004EF683 /* 03_PDF */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E1C1D41A1AC004EF683 /* Spotify_Logo_RGB_Black.pdf */,
+				0B3A6E1D1D41A1AC004EF683 /* Spotify_Logo_RGB_Green.pdf */,
+				0B3A6E1E1D41A1AC004EF683 /* Spotify_Logo_RGB_White.pdf */,
+			);
+			path = 03_PDF;
+			sourceTree = "<group>";
+		};
+		0B3A6E1F1D41A1AC004EF683 /* 02_CMYK */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E201D41A1AC004EF683 /* 01_EPS */,
+				0B3A6E241D41A1AC004EF683 /* 02_PNG */,
+				0B3A6E281D41A1AC004EF683 /* 03_PDF */,
+			);
+			path = 02_CMYK;
+			sourceTree = "<group>";
+		};
+		0B3A6E201D41A1AC004EF683 /* 01_EPS */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E211D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.eps */,
+				0B3A6E221D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.eps */,
+				0B3A6E231D41A1AC004EF683 /* Spotify_Logo_CMYK_White.eps */,
+			);
+			path = 01_EPS;
+			sourceTree = "<group>";
+		};
+		0B3A6E241D41A1AC004EF683 /* 02_PNG */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E251D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.png */,
+				0B3A6E261D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.png */,
+				0B3A6E271D41A1AC004EF683 /* Spotify_Logo_CMYK_White.png */,
+			);
+			path = 02_PNG;
+			sourceTree = "<group>";
+		};
+		0B3A6E281D41A1AC004EF683 /* 03_PDF */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E291D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.pdf */,
+				0B3A6E2A1D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.pdf */,
+				0B3A6E2B1D41A1AC004EF683 /* Spotify_Logo_CMYK_White.pdf */,
+			);
+			path = 03_PDF;
+			sourceTree = "<group>";
+		};
+		0B3A6E2C1D41A1AC004EF683 /* 03_PMS */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E2D1D41A1AC004EF683 /* 01_EPS */,
+				0B3A6E321D41A1AC004EF683 /* 02_PDF */,
+			);
+			path = 03_PMS;
+			sourceTree = "<group>";
+		};
+		0B3A6E2D1D41A1AC004EF683 /* 01_EPS */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E2E1D41A1AC004EF683 /* Spotify_Logo_Black_Coated.eps */,
+				0B3A6E2F1D41A1AC004EF683 /* Spotify_Logo_Black_Uncoated.eps */,
+				0B3A6E301D41A1AC004EF683 /* Spotify_Logo_Green_Coated.eps */,
+				0B3A6E311D41A1AC004EF683 /* Spotify_Logo_Green_Uncoated.eps */,
+			);
+			path = 01_EPS;
+			sourceTree = "<group>";
+		};
+		0B3A6E321D41A1AC004EF683 /* 02_PDF */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A6E331D41A1AC004EF683 /* Spotify_Logo_Black_Coated.pdf */,
+				0B3A6E341D41A1AC004EF683 /* Spotify_Logo_Black_Uncoated.pdf */,
+				0B3A6E351D41A1AC004EF683 /* Spotify_Logo_Green_Coated.pdf */,
+				0B3A6E361D41A1AC004EF683 /* Spotify_Logo_Green_Uncoated.pdf */,
+			);
+			path = 02_PDF;
+			sourceTree = "<group>";
+		};
 		0B4A6FBB1D3D6F6100DD75E2 = {
 			isa = PBXGroup;
 			children = (
@@ -130,13 +493,18 @@
 			isa = PBXGroup;
 			children = (
 				0B40C3B61D3F5CFB0087A839 /* OutsideRecsiPhone.mp4 */,
+				0B1840471D42EADC0061D8BC /* IMG_0023.jpg */,
+				0B1840491D42EE6B0061D8BC /* Outside_Lands_2015_04125_JORGPHOTO.jpg */,
 				0B4A6FC71D3D6F6100DD75E2 /* AppDelegate.swift */,
-				0B4A6FC91D3D6F6100DD75E2 /* ViewController.swift */,
+				0B4A6FC91D3D6F6100DD75E2 /* LoginPage.swift */,
+				0BD1B8961D44290B00A8D472 /* NavigationController.swift */,
+				0BD1B8941D441F5D00A8D472 /* UserRecommendations.swift */,
 				0B4A6FCB1D3D6F6100DD75E2 /* Main.storyboard */,
 				0B4A6FCE1D3D6F6100DD75E2 /* Assets.xcassets */,
 				0B4A6FD01D3D6F6100DD75E2 /* LaunchScreen.storyboard */,
 				0B4A6FD31D3D6F6100DD75E2 /* Info.plist */,
 				0B13B04E1D3D9F1A003681F8 /* Outside Recs-Bridging-Header.h */,
+				0B3A6DEA1D41A1AC004EF683 /* spotify-icons-logos */,
 			);
 			path = "Outside Recs";
 			sourceTree = "<group>";
@@ -303,10 +671,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3A6E471D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.pdf in Resources */,
+				0B3A6E4D1D41A1AC004EF683 /* Spotify_Icon_Black_Coated.pdf in Resources */,
 				0B4A6FD21D3D6F6100DD75E2 /* LaunchScreen.storyboard in Resources */,
+				0B3A6E481D41A1AC004EF683 /* Spotify_Icon_CMYK_White.pdf in Resources */,
+				0B3A6E3C1D41A1AC004EF683 /* Spotify_Icon_RGB_White.png in Resources */,
+				0B3A6E691D41A1AC004EF683 /* Spotify_Logo_Green_Coated.pdf in Resources */,
+				0B3A6E571D41A1AC004EF683 /* Spotify_Logo_RGB_Black.pdf in Resources */,
+				0B3A6E491D41A1AC004EF683 /* Spotify_Icon_Black_Coated.eps in Resources */,
+				0B3A6E3D1D41A1AC004EF683 /* Spotify_Icon_RGB_Black.pdf in Resources */,
+				0B3A6E531D41A1AC004EF683 /* Spotify_Logo_RGB_White.eps in Resources */,
+				0B3A6E661D41A1AC004EF683 /* Spotify_Logo_Green_Uncoated.eps in Resources */,
+				0B3A6E3A1D41A1AC004EF683 /* Spotify_Icon_RGB_Black.png in Resources */,
+				0B3A6E581D41A1AC004EF683 /* Spotify_Logo_RGB_Green.pdf in Resources */,
+				0B3A6E631D41A1AC004EF683 /* Spotify_Logo_Black_Coated.eps in Resources */,
+				0B3A6E5E1D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.png in Resources */,
+				0B3A6E6A1D41A1AC004EF683 /* Spotify_Logo_Green_Uncoated.pdf in Resources */,
+				0B1840481D42EADC0061D8BC /* IMG_0023.jpg in Resources */,
+				0B3A6E371D41A1AC004EF683 /* Spotify_Icon_RGB_Black.eps in Resources */,
+				0B3A6E381D41A1AC004EF683 /* Spotify_Icon_RGB_Green.eps in Resources */,
+				0B3A6E551D41A1AC004EF683 /* Spotify_Logo_RGB_Green.png in Resources */,
+				0B18404A1D42EE6B0061D8BC /* Outside_Lands_2015_04125_JORGPHOTO.jpg in Resources */,
+				0B3A6E681D41A1AC004EF683 /* Spotify_Logo_Black_Uncoated.pdf in Resources */,
+				0B3A6E411D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.eps in Resources */,
+				0B3A6E3B1D41A1AC004EF683 /* Spotify_Icon_RGB_Green.png in Resources */,
 				0B40C3B71D3F5CFB0087A839 /* OutsideRecsiPhone.mp4 in Resources */,
+				0B3A6E5B1D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.eps in Resources */,
+				0B3A6E651D41A1AC004EF683 /* Spotify_Logo_Green_Coated.eps in Resources */,
+				0B3A6E5C1D41A1AC004EF683 /* Spotify_Logo_CMYK_White.eps in Resources */,
+				0B3A6E501D41A1AC004EF683 /* Spotify_Icon_Green_Uncoated.pdf in Resources */,
+				0B3A6E441D41A1AC004EF683 /* Spotify_Icon_CMYK_Green.png in Resources */,
+				0B3A6E401D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.eps in Resources */,
+				0B3A6E421D41A1AC004EF683 /* Spotify_Icon_CMYK_White.eps in Resources */,
+				0B3A6E4F1D41A1AC004EF683 /* Spotify_Icon_Green_Coated.pdf in Resources */,
+				0B3A6E5A1D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.eps in Resources */,
+				0B3A6E601D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.pdf in Resources */,
+				0B3A6E4B1D41A1AC004EF683 /* Spotify_Icon_Green_Coated.eps in Resources */,
+				0B3A6E5F1D41A1AC004EF683 /* Spotify_Logo_CMYK_White.png in Resources */,
+				0B3A6E561D41A1AC004EF683 /* Spotify_Logo_RGB_White.png in Resources */,
+				0B3A6E641D41A1AC004EF683 /* Spotify_Logo_Black_Uncoated.eps in Resources */,
+				0B3A6E591D41A1AC004EF683 /* Spotify_Logo_RGB_White.pdf in Resources */,
+				0B3A6E461D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.pdf in Resources */,
 				0B4A6FCF1D3D6F6100DD75E2 /* Assets.xcassets in Resources */,
+				0B3A6E4A1D41A1AC004EF683 /* Spotify_Icon_Black_Uncoated.eps in Resources */,
+				0B3A6E5D1D41A1AC004EF683 /* Spotify_Logo_CMYK_Black.png in Resources */,
+				0B3A6E391D41A1AC004EF683 /* Spotify_Icon_RGB_White.eps in Resources */,
+				0B3A6E621D41A1AC004EF683 /* Spotify_Logo_CMYK_White.pdf in Resources */,
+				0B3A6E451D41A1AC004EF683 /* Spotify_Icon_CMYK_White.png in Resources */,
+				0B3A6E671D41A1AC004EF683 /* Spotify_Logo_Black_Coated.pdf in Resources */,
+				0B3A6E521D41A1AC004EF683 /* Spotify_Logo_RGB_Green.eps in Resources */,
+				0B3A6E4C1D41A1AC004EF683 /* Spotify_Icon_Green_Uncoated.eps in Resources */,
+				0B3A6E541D41A1AC004EF683 /* Spotify_Logo_RGB_Black.png in Resources */,
+				0B3A6E431D41A1AC004EF683 /* Spotify_Icon_CMYK_Black.png in Resources */,
+				0B3A6E611D41A1AC004EF683 /* Spotify_Logo_CMYK_Green.pdf in Resources */,
+				0B3A6E3E1D41A1AC004EF683 /* Spotify_Icon_RGB_Green.pdf in Resources */,
 				0B4A6FCD1D3D6F6100DD75E2 /* Main.storyboard in Resources */,
+				0B3A6E3F1D41A1AC004EF683 /* Spotify_Icon_RGB_White.pdf in Resources */,
+				0B3A6E511D41A1AC004EF683 /* Spotify_Logo_RGB_Black.eps in Resources */,
+				0B3A6E4E1D41A1AC004EF683 /* Spotify_Icon_Black_Uncoated.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +876,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4A6FCA1D3D6F6100DD75E2 /* ViewController.swift in Sources */,
+				0B4A6FCA1D3D6F6100DD75E2 /* LoginPage.swift in Sources */,
+				0BD1B8971D44290B00A8D472 /* NavigationController.swift in Sources */,
+				0BD1B8951D441F5D00A8D472 /* UserRecommendations.swift in Sources */,
 				0B4A6FC81D3D6F6100DD75E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
