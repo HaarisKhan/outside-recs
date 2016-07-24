@@ -99,7 +99,7 @@ class LoginPage: UIViewController, SPTAuthViewDelegate {
         
         auth.clientID = kClientID
         auth.redirectURL = NSURL(string: kCallbackURI)
-        //auth.requestedScopes = [SPTAuthUserFollowReadScope, SPTAuthPlaylistModifyPrivateScope]
+        auth.requestedScopes = [SPTAuthUserFollowReadScope, SPTAuthPlaylistModifyPrivateScope, SPTAuthUserReadEmailScope,SPTAuthUserReadPrivateScope, SPTAuthUserReadBirthDateScope, "user-top-read"]
         
         let spotifyAuthViewController = SPTAuthViewController.authenticationViewController()
         spotifyAuthViewController.delegate = self
