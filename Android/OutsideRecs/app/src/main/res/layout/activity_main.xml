@@ -30,14 +30,21 @@
         android:layout_below="@+id/outsideRecsLogo"
         android:layout_centerHorizontal="true" />
 
-    <Button
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@null"
+        android:foregroundGravity="center_horizontal"
+        android:scaleType="fitCenter"
         android:id="@+id/login"
         android:text="@string/login"
+        android:src="@drawable/spotifylogo"
         android:adjustViewBounds="true"
+        android:onClick="onButtonClick"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="onButtonClick" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="50dp" />
+
 
 </RelativeLayout>

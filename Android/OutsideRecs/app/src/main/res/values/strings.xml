@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name"> Outside Recs </string>
     <string name="login"> Login </string>
+    <string name="which_day_will_you_be_attending_select_all_that_apply">Which day will you be attending? Select all that apply</string>
+    <string name="next">Next</string>
+    <string name="friday_august_5th">Friday, August 5th</string>
+    <string name="saturday_august_6th">Saturday, August 6th</string>
+    <string name="sunday_august_7th">Sunday, August 7th</string>
+    <string name="selected"> Select Me! </string>
+    <string name="unselected"> Unselect Me! </string>
 </resources>
