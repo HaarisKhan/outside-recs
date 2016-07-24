@@ -32,24 +32,24 @@
                     <connections>
                         <outlet property="backgroundImage" destination="LNY-5J-dO6" id="jNe-iv-lCx"/>
                         <outlet property="backgroundVideo" destination="8bC-Xf-vdC" id="mzW-8q-BNf"/>
-                        <segue destination="CjP-9o-9v5" kind="showDetail" identifier="showUserRecommendations" id="s52-Bh-qCV"/>
+                        <segue destination="3yJ-1w-syT" kind="showDetail" identifier="showUserRecommendations" id="s52-Bh-qCV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="335" y="399"/>
         </scene>
-        <!--Table View Controller-->
+        <!--User Recommendations-->
         <scene sceneID="frC-U8-1et">
             <objects>
-                <tableViewController id="CjP-9o-9v5" sceneMemberID="viewController">
+                <tableViewController id="CjP-9o-9v5" customClass="UserRecommendations" customModule="Outside_Recs" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ag2-mF-9Hi">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eU8-wQ-4Wh">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eU8-wQ-4Wh" id="HA6-6E-5Ft">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
@@ -62,8 +62,33 @@
                             <outlet property="delegate" destination="CjP-9o-9v5" id="3Sx-sF-naQ"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="fgL-An-BpD"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZIK-La-Osd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="399"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oAy-7o-Bxf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3yJ-1w-syT" customClass="NavigationController" customModule="Outside_Recs" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="73w-Mi-Gi7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="1"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CjP-9o-9v5" kind="relationship" relationship="rootViewController" id="wLi-wX-fGY"/>
+                        <segue destination="BYZ-38-t0r" kind="showDetail" identifier="backToLogin" id="vtZ-hS-0dU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LeH-xR-ep8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1080" y="399"/>
         </scene>

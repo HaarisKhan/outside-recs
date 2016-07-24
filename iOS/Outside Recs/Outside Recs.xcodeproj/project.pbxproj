@@ -74,6 +74,7 @@
 		0B4A6FFA1D3D715000DD75E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4A6FF91D3D715000DD75E2 /* AVFoundation.framework */; };
 		0B4A6FFC1D3D715D00DD75E2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4A6FFB1D3D715D00DD75E2 /* SystemConfiguration.framework */; };
 		0BD1B8951D441F5D00A8D472 /* UserRecommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B8941D441F5D00A8D472 /* UserRecommendations.swift */; };
+		0BD1B8971D44290B00A8D472 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B8961D44290B00A8D472 /* NavigationController.swift */; };
 		1D28526ED9AD199145C32465 /* Pods_Outside_Recs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20F2C0A1FB9C5DF28F66FA6 /* Pods_Outside_Recs.framework */; };
 		FC54CE46004B9D4E5A278E81 /* Pods_Outside_RecsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653719A333BEF43B40AC59B1 /* Pods_Outside_RecsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -172,6 +173,7 @@
 		0B6B62AE1D3D9BB400AAE506 /* Pods_Outside_Recs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Outside_Recs.framework; path = "Pods/../build/Debug-iphoneos/Pods_Outside_Recs.framework"; sourceTree = "<group>"; };
 		0B6B62B01D3D9BC100AAE506 /* Material.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Material.framework; path = "Pods/../build/Debug-iphoneos/Material.framework"; sourceTree = "<group>"; };
 		0BD1B8941D441F5D00A8D472 /* UserRecommendations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRecommendations.swift; sourceTree = "<group>"; };
+		0BD1B8961D44290B00A8D472 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		2DD372A3844F16E5697E64E7 /* Pods-Outside RecsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Outside RecsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Outside RecsUITests/Pods-Outside RecsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		653719A333BEF43B40AC59B1 /* Pods_Outside_RecsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Outside_RecsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED8E058CE8CEC55156AB462 /* Pods_Outside_RecsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Outside_RecsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -495,6 +497,7 @@
 				0B1840491D42EE6B0061D8BC /* Outside_Lands_2015_04125_JORGPHOTO.jpg */,
 				0B4A6FC71D3D6F6100DD75E2 /* AppDelegate.swift */,
 				0B4A6FC91D3D6F6100DD75E2 /* LoginPage.swift */,
+				0BD1B8961D44290B00A8D472 /* NavigationController.swift */,
 				0BD1B8941D441F5D00A8D472 /* UserRecommendations.swift */,
 				0B4A6FCB1D3D6F6100DD75E2 /* Main.storyboard */,
 				0B4A6FCE1D3D6F6100DD75E2 /* Assets.xcassets */,
@@ -874,6 +877,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B4A6FCA1D3D6F6100DD75E2 /* LoginPage.swift in Sources */,
+				0BD1B8971D44290B00A8D472 /* NavigationController.swift in Sources */,
 				0BD1B8951D441F5D00A8D472 /* UserRecommendations.swift in Sources */,
 				0B4A6FC81D3D6F6100DD75E2 /* AppDelegate.swift in Sources */,
 			);

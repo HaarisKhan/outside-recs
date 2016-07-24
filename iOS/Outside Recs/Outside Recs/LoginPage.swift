@@ -26,9 +26,39 @@ class LoginPage: UIViewController, SPTAuthViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        backgroundImage.hidden = true
+        loadVideo()
+        prepareLoginButton()
+        prepareSpotifyLogo()
         
-        //backgroundImage.hidden = true
-        //loadVideo()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    @objc func authenticationViewControllerDidCancelLogin(authenticationViewController: SPTAuthViewController!) {
+        
+        print("Did press cancel")
+        authenticationViewController.clearCookies(nil)
+        
+    }
+    
+    @objc func authenticationViewController(authenticationViewController: SPTAuthViewController!, didFailToLogin error: NSError!) {
+        
+        print(error)
+        authenticationViewController.clearCookies(nil)
+        
+    }
+    
+    @objc func authenticationViewController(authenticationViewController: SPTAuthViewController!, didLoginWithSession session: SPTSession!) {
+        
+        print("Did login")
+        let sessionData = NSKeyedArchiver.archivedDataWithRootObject(session)
+        user.setObject(sessionData, forKey: "Spotify Session")
+        self.performSegueWithIdentifier("showUserRecommendations", sender: self)
+        
+    }
+    
+    private func prepareLoginButton() {
         
         loginButton = UIButton(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 56))
         loginButton.backgroundColor = MaterialColor.orange.darken1
@@ -45,6 +75,10 @@ class LoginPage: UIViewController, SPTAuthViewDelegate {
             make.bottomMargin.equalTo(0)
         }
         
+    }
+    
+    private func prepareSpotifyLogo() {
+        
         let logo = UIImage(named: "SpotifyButton")
         let SpotifyLogo = UIImageView(image: logo)
         SpotifyLogo.contentMode = .ScaleAspectFit
@@ -58,30 +92,14 @@ class LoginPage: UIViewController, SPTAuthViewDelegate {
         }
         
         self.view.addSubview(loginButton)
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
     
-    @objc func authenticationViewControllerDidCancelLogin(authenticationViewController: SPTAuthViewController!) {
-        print("Did press cancel")
-        authenticationViewController.clearCookies(nil)
-    }
-    
-    @objc func authenticationViewController(authenticationViewController: SPTAuthViewController!, didFailToLogin error: NSError!) {
-        print(error)
-        authenticationViewController.clearCookies(nil)
-    }
-    
-    @objc func authenticationViewController(authenticationViewController: SPTAuthViewController!, didLoginWithSession session: SPTSession!) {
-        print("Did login")
-        let sessionData = NSKeyedArchiver.archivedDataWithRootObject(session)
-        user.setObject(sessionData, forKey: "Spotify Session")
-        self.performSegueWithIdentifier("showUserRecommendations", sender: self)
-    }
-    
-    func didPressLoginButton(sender: UIButton!) {
-        print("entered function")
+    @objc private func didPressLoginButton(sender: UIButton!) {
+        
         auth.clientID = kClientID
         auth.redirectURL = NSURL(string: kCallbackURI)
+        //auth.requestedScopes = [SPTAuthUserFollowReadScope, SPTAuthPlaylistModifyPrivateScope]
         
         let spotifyAuthViewController = SPTAuthViewController.authenticationViewController()
         spotifyAuthViewController.delegate = self
@@ -93,6 +111,7 @@ class LoginPage: UIViewController, SPTAuthViewDelegate {
         
         //var loginURL : NSURL = auth.loginURL
         //UIApplication.sharedApplication().openURL(loginURL)
+        
     }
     
 

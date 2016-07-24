@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import Material
+import SnapKit
 
 class UserRecommendations: UITableViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.title = "OUTSIDE RECS"
+        getUserInfo()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -37,6 +40,17 @@ class UserRecommendations: UITableViewController {
         return 0
     }
 
+    private func getUserInfo() {
+        let userDefaults = NSUserDefaults.standardUserDefaults()
+        
+        if let sessionObj : AnyObject = userDefaults.objectForKey("Spotify Session") {
+            let sessionObjData = sessionObj as! NSData
+            
+            let session = NSKeyedUnarchiver.unarchiveObjectWithData(sessionObjData) as! SPTSession
+        }
+        
+    }
+    
     /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
