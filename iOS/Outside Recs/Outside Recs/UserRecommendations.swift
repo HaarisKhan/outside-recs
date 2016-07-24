@@ -12,10 +12,13 @@ import SnapKit
 
 class UserRecommendations: UITableViewController {
     
+    var artistArray: [String: [AnyObject]] = [:]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "OUTSIDE RECS"
-        getUserInfo()
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(prepareTableView), name: "haveTopArtists", object: nil)
+        getInfo()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -40,15 +43,78 @@ class UserRecommendations: UITableViewController {
         return 0
     }
 
-    private func getUserInfo() {
+    private func getInfo() {
+        
         let userDefaults = NSUserDefaults.standardUserDefaults()
         
         if let sessionObj : AnyObject = userDefaults.objectForKey("Spotify Session") {
             let sessionObjData = sessionObj as! NSData
             
             let session = NSKeyedUnarchiver.unarchiveObjectWithData(sessionObjData) as! SPTSession
+            getUserInfo(session)
+            getTopArtists(session)
         }
         
+    }
+    
+    private func getUserInfo(session: SPTSession!) {
+        do {
+            let currentUserHTTPRequest = try SPTUser.createRequestForCurrentUserWithAccessToken(session.accessToken)
+            NSURLConnection.sendAsynchronousRequest(currentUserHTTPRequest, queue: NSOperationQueue(), completionHandler: {(response: NSURLResponse?, receivedData: NSData?, error: NSError?) -> Void in
+                if error != nil {
+                    print(error?.localizedDescription)
+                }
+                else{
+                    do{
+                        var err: NSError? = nil
+                        let jsonResult : NSDictionary = try NSJSONSerialization.JSONObjectWithData(receivedData!, options: NSJSONReadingOptions.AllowFragments) as! NSDictionary
+                        print(jsonResult.objectForKey("birthday"))
+                        print(jsonResult.objectForKey("country"))
+                        print(jsonResult.objectForKey("uri"))
+                        print(jsonResult.objectForKey("email"))
+                    }
+                    catch{}
+                }
+            })
+        }
+        catch{}
+    }
+    
+    private func getTopArtists(session: SPTSession!) {
+        let apiURL = "https://api.spotify.com/v1/me/top/artists"
+        let url = NSURL(string: apiURL)
+        
+        var urlRequest = NSMutableURLRequest(URL: url!) as NSMutableURLRequest
+        let headersAuth = NSString(format: "Bearer %@", session.accessToken)
+        urlRequest.setValue(headersAuth as String, forHTTPHeaderField: "Authorization")
+        
+        let queue = NSOperationQueue()
+        NSURLConnection.sendAsynchronousRequest(urlRequest, queue: queue, completionHandler: {(response: NSURLResponse?, recievedData: NSData?, error: NSError?) -> Void in
+            if error != nil {
+                print(error?.localizedDescription)
+            }
+            else{
+                do {
+                    var tempDict: [String: [AnyObject]] = [:]
+                    var err: NSError? = nil
+                    let jsonResult : NSDictionary = try NSJSONSerialization.JSONObjectWithData(recievedData!, options: .AllowFragments) as! NSDictionary
+                
+                    if let items = jsonResult["items"] as? [[String: AnyObject]] {
+                        for artist in items {
+                            let name = artist["name"] as! String
+                            tempDict[name] = [artist["genres"]!, artist["images"]!]
+                        }
+                    }
+                    self.artistArray = tempDict
+                    NSNotificationCenter.defaultCenter().postNotificationName("haveTopArtists", object: nil)
+                }
+                catch{}
+            }
+        })
+    }
+    
+    func prepareTableView(sender: AnyObject) {
+        print(self.artistArray)
     }
     
     /*
