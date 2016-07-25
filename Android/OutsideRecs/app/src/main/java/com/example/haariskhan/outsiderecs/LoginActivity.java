@@ -62,7 +62,7 @@ public class LoginActivity extends AppCompatActivity implements PlayerNotificati
         }
 
         if (!(token == null)) {
-            Intent intent1 = new Intent(this, ListSchedule.class);
+            Intent intent1 = new Intent("com.example.haariskhan.outsiderecs.WhatDay");
             intent1.putExtra("Token", token);
             startActivity(intent1);
         }

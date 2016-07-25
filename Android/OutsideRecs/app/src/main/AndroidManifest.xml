@@ -21,19 +21,26 @@
         </activity>
         <activity
             android:name="com.spotify.sdk.android.authentication.LoginActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"> </activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
         <activity
             android:name=".LoginActivity"
             android:label="@string/login">
             <intent-filter>
-                <action android:name="com.example.haariskhan.outsiderecs.LoginActivity"> </action>
+                <action android:name="com.example.haariskhan.outsiderecs.LoginActivity"></action>
 
-                <category android:name="android.intent.category.DEFAULT"> </category>
+                <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>
         </activity>
         <activity android:name=".ListSchedule">
             <intent-filter>
-                <action android:name="com.example.haariskhan.outsiderecs.ListSchedule"> </action>
+                <action android:name="com.example.haariskhan.outsiderecs.ListSchedule"></action>
+
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name=".WhatDay">
+            <intent-filter>
+                <action android:name="com.example.haariskhan.outsiderecs.WhatDay"> </action>
 
                 <category android:name="android.intent.category.DEFAULT"> </category>
             </intent-filter>
