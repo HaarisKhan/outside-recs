@@ -50,6 +50,7 @@ class NavigationController: UINavigationController {
     }
     
     @objc private func didPressLogoutButton(sender: FabButton!) {
+        SPTAuthViewController.authenticationViewController().clearCookies(nil)
         self.performSegueWithIdentifier("backToLogin", sender: self)
     }
     

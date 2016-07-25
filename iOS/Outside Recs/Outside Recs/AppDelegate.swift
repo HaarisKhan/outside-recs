@@ -15,41 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     let kClientID = "6153f36c8e9b426a84d999559435ec8e"
     let kCallbackURI = NSURL(string: "test://callback")
+    let user = NSUserDefaults.standardUserDefaults()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override pointfor customization after application launch
         UIApplication.sharedApplication().statusBarStyle = .LightContent
-
         return true
     }
 
-    /* func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
-        
-        if SPTAuth.defaultInstance().canHandleURL(kCallbackURI) {
-            SPTAuth.defaultInstance().handleAuthCallbackWithTriggeredAuthURL(url, callback: { (error: NSError!, session: SPTSession!) -> Void in
-            
-                if error != nil {
-                    print("*** Auth error: \(error)")
-                    return
-                }
-                
-                print("Some debugging")
-                
-                let userDefaults = NSUserDefaults.standardUserDefaults()
-                let sessionData = NSKeyedArchiver.archivedDataWithRootObject(session)
-                
-                userDefaults.setObject(sessionData, forKey: "SpotifySession")
-                
-                NSNotificationCenter.defaultCenter().postNotificationName("loginSuccessfull", object: nil)
-                print("loginSuccessfull")
-                
-            })
-        }
-        
-        return false
-        
-    } */
-    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

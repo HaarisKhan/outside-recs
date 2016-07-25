@@ -13,6 +13,8 @@ import SnapKit
 class UserRecommendations: UITableViewController {
     
     var artistArray: [String: [AnyObject]] = [:]
+    let lineupHashSet = NSHashTable(options: NSPointerFunctionsOptions.ObjectPointerPersonality)
+    var recommendations = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -93,7 +95,7 @@ class UserRecommendations: UITableViewController {
             if error != nil {
                 print(error?.localizedDescription)
             }
-            else{
+            else {
                 do {
                     var tempDict: [String: [AnyObject]] = [:]
                     var err: NSError? = nil
@@ -101,11 +103,12 @@ class UserRecommendations: UITableViewController {
                 
                     if let items = jsonResult["items"] as? [[String: AnyObject]] {
                         for artist in items {
-                            let name = artist["name"] as! String
-                            tempDict[name] = [artist["genres"]!, artist["images"]!]
+                            let id = artist["id"] as! String
+                            tempDict[id] = [artist["genres"]!, artist["images"]!]
                         }
                     }
                     self.artistArray = tempDict
+                    print(self.artistArray)
                     NSNotificationCenter.defaultCenter().postNotificationName("haveTopArtists", object: nil)
                 }
                 catch{}
@@ -114,7 +117,42 @@ class UserRecommendations: UITableViewController {
     }
     
     func prepareTableView(sender: AnyObject) {
-        print(self.artistArray)
+        
+    }
+    
+    private func getRelatedArtists(id: String, session: SPTSession!) -> String {
+        var artistToRecommend = String!()
+        
+        let apiURL = String(format: "https://api.spotify.com/v1/artists/%02d/related-artists", id)
+        let url = NSURL(string: apiURL)
+        
+        var urlRequest = NSMutableURLRequest(URL: url!) as NSMutableURLRequest
+        let headersAuth = NSString(format: "Bearer %@", session.accessToken)
+        urlRequest.setValue(headersAuth as String, forHTTPHeaderField: "Authorization")
+        
+        let queue = NSOperationQueue()
+        NSURLConnection.sendAsynchronousRequest(urlRequest, queue: queue, completionHandler: {(response: NSURLResponse?, recievedData: NSData?, error: NSError?) -> Void in
+            if error != nil {
+                print(error?.localizedDescription)
+            }
+            else {
+                do {
+                    var err: NSError? = nil
+                    let jsonResult : NSDictionary = try NSJSONSerialization.JSONObjectWithData(recievedData!, options: .AllowFragments) as! NSDictionary
+                    
+                    if let artists = jsonResult["artist"] as? [[String: AnyObject]] {
+                        for artist in artists {
+                            if self.lineupHashSet.member(artist["name"] as! String) != nil {
+                                artistToRecommend = artist["name"] as! String
+                                return
+                            }
+                        }
+                    }
+                }
+                catch{}
+            }
+        })
+        return artistToRecommend
     }
     
     /*
