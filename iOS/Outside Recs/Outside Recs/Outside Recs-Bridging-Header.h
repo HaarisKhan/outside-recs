@@ -3,3 +3,4 @@
 //
 
 #import <Spotify/Spotify.h>
+#import <SVProgressHUD/SVProgressHUD.h>

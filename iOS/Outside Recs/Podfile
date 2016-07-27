@@ -10,6 +10,7 @@ target 'Outside Recs' do
   # Pods for Outside Recs
   pod 'Material', '~> 1.0'
   pod 'SnapKit'
+  pod 'SVProgressHUD'
 
   target 'Outside RecsTests' do
     inherit! :search_paths

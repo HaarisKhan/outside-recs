@@ -1,15 +1,18 @@
 PODS:
   - Material (1.41.4)
   - SnapKit (0.21.0)
+  - SVProgressHUD (2.0.3)
 
 DEPENDENCIES:
   - Material (~> 1.0)
   - SnapKit
+  - SVProgressHUD
 
 SPEC CHECKSUMS:
   Material: b477d6daa20aeba2359eb87ec9045e9b4d4358f0
   SnapKit: 2756fe24b706367af224c9c508d2f9166d03354c
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
-PODFILE CHECKSUM: 0bf42057c0a167103c3c15dd5350ed8a4c43e636
+PODFILE CHECKSUM: 6e5c65ce5c18f0c4a144046deaeb47d8950685a4
 
 COCOAPODS: 1.0.1

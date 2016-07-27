@@ -16,8 +16,7 @@ class NavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //let shadowBar : UIView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.navigationBar.bounds.height + 10))
-        //shadowBar.backgroundColor = MaterialColor.grey.lighten1
+        
         self.navigationBar.barTintColor = MaterialColor.orange.darken1
         self.navigationBar.titleTextAttributes = [UIFontDescriptorTextStyleAttribute: MaterialFont.boldSystemFontWithSize(20), NSForegroundColorAttributeName: MaterialColor.white]
         

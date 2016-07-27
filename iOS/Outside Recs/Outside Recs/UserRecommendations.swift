@@ -9,6 +9,7 @@
 import UIKit
 import Material
 import SnapKit
+import SVProgressHUD
 
 class UserRecommendations: UITableViewController {
     
@@ -19,8 +20,23 @@ class UserRecommendations: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "OUTSIDE RECS"
+        
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(prepareTableView), name: "haveTopArtists", object: nil)
-        getInfo()
+        
+        SVProgressHUD.setDefaultStyle(SVProgressHUDStyle.Light)
+        SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.Black)
+        SVProgressHUD.show()
+        /*
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), {
+            // Fetching Recommendations
+            self.getInfo()
+            print("Loading")
+            dispatch_async(dispatch_get_main_queue(), {
+                SVProgressHUD.dismiss()
+            })
+        })
+        */
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
