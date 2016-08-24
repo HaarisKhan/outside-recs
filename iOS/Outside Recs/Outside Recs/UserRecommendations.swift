@@ -10,6 +10,7 @@ import UIKit
 import Material
 import SnapKit
 import SVProgressHUD
+import Alamofire
 
 class UserRecommendations: UITableViewController {
     
@@ -20,6 +21,7 @@ class UserRecommendations: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "OUTSIDE RECS"
+        
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(prepareTableView), name: "haveTopArtists", object: nil)
         
